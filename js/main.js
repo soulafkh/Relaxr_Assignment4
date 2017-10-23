@@ -1,5 +1,7 @@
 $(document).ready(function() {
 
+});
+
 $('a').on('click', function(e) {
   e.preventDefault();
 });
@@ -18,6 +20,4 @@ $('.readless').on('click', function() {
 $('.learnmore').on('click', function() {
 	$(this).hide();
 	$(this).next().slideDown();
-});
-
 });
